@@ -110,7 +110,11 @@ public class BouncingBall extends JFrame {
 			g.fillOval(x, y, size, size);
 			//Mouse trail
 			g.setColor(Color.RED);
+<<<<<<< HEAD
 			g.fillOval(mouseX-10, mouseY-10, 20, 20);
+=======
+			g.fillRect(mouseX-10, mouseY-10, 20, 20);
+>>>>>>> fe53796fca9e65c69fd6fcde3a71898dc2bac2cd
 		}
 	}
 }
